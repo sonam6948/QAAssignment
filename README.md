@@ -1,6 +1,6 @@
 *******Read me **********
 
-I.Project Details -------------------------------------------------------------------------------------------------------------------------------------
+I.Project Details -----
 Project Name :- SennderQAAssignment
 tech and IDE used - Python ,Selenium, PyCharm IDE
 
@@ -20,7 +20,7 @@ Filename :- test_SprintBoard.py
 this file is used to run test automation. It contains class in which all methods are getting called 
 and We need to run this file for executing the smoke test plan.
 
-II. Steps to Setup---------------------------------------------------------------------------------------------------------------------------------------
+II. Steps to Setup-----
 1) Import project in pycharm
 2) Install Chrome driver, Enter local path of Chrome Driver from your P.C and update in Config/config.py File,
    against key : CHROME_EXECUTABLE_PATH
@@ -32,6 +32,6 @@ II. Steps to Setup--------------------------------------------------------------
 III Project Enhancements
 Below objectives can also be achieved:
 1) Report can be generated using pytest/ Unittest/ Allure Report. for pytest , we just need to import pytest in the test class 
-and on setup method @pytest.facture need to be added. and the method name should start with test_***.
+and on setup method @pytest.facture need to be added. and the method name should start with test_, which is already the case in our scenario
 2) To follw POM completely , we can seggregate code for each page, we can have one class per page. 
 As of now one class is created to deal end to end scenario.

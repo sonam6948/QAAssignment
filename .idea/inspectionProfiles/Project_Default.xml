@@ -1,0 +1,14 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Pages.EnglishPage.input_box_element" />
+          <option value="Pages.EnglishPage.self_term" />
+          <option value="Pages.EnglishPage.drv" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
